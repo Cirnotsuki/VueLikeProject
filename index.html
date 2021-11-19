@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VueLikeProject</title>
+    <script>
+        window.pages = {};
+    </script>
+    <script src="./modules/uuid.js"></script>
+    <script src="./modules/vuelike.js"></script>
+    <script src="./pages/home.js"></script>
+</head>
+<body>
+    <script>
+        new VueLike({
+            render: {tag: 'div', attrs: { id: 'app' }, children: [ window.pages.home ]}
+        }).$mount()
+    </script>
+</body>
+</html>

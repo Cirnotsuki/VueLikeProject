@@ -1,0 +1,23 @@
+{
+  "name": "vuelikeproject",
+  "version": "1.0.0",
+  "description": "This is a Vue imitating project, try to reproduce Vue in regular JavaScript and how vue works.",
+  "main": "index.html",
+  "dependencies": {
+    "http-server": "^14.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "http-server -c-1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Cirnotsuki/VueLikeProject.git"
+  },
+  "author": "Cirnotsuki",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Cirnotsuki/VueLikeProject/issues"
+  },
+  "homepage": "https://github.com/Cirnotsuki/VueLikeProject#readme"
+}
